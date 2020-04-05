@@ -35,7 +35,7 @@ There are 99 unique country names, with **Indonesia** is one of them; thus we ch
 ![](./images/indonesia.jpeg)<br/><br/>
 
 The sectors available in the data are:<br/>
-![](./images/commodities.jpeg)<br/><br/>
+![](./images/indonesia_commodities.jpeg)<br/><br/>
 
 In this forecasting, we tried to predict Chili sectors; **Chili Red** and **Chili Bird's Eye**. Each of us developed the model by following [TensorFlow Tutorial](https://www.tensorflow.org/tutorials/structured_data/time_series#part_2_forecast_a_multivariate_time_series).<br/>
 We did univariate analysis with **mp_month** (or month frame) and **mp_price** as features. We were trying to train the model using only red chili data and test it to bird's eye chili data. Because based on the data, both of them have high correlation.<br/>
